@@ -17,6 +17,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     rake (13.0.3)
+    require_all (3.0.0)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -33,6 +34,7 @@ DEPENDENCIES
   json
   pry
   rake (~> 13.0)
+  require_all
   rest-client
 
 BUNDLED WITH
