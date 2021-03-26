@@ -1,3 +1,3 @@
 class CLI 
-    binding.pry
+    # binding.pry
 end
