@@ -5,7 +5,8 @@ class API
        shows.each do |show|
         new_show = show['show']
         # name, genres, runtime
-        Show.new(new_show["name"], new_show["genres"], new_show["runtime"])
+        # binding.pry
+        Show.new(new_show)
         # binding.pry
        end
         binding.pry
