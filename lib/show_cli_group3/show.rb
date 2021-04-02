@@ -7,12 +7,18 @@ class Show
        end
         save
     end
-    
+
     def save 
         @@all << self 
     end
 
     def self.all 
         @@all 
+    end
+
+    def self.find_show(input) 
+        self.all.detect do |show|
+            show.name == input
+        end
     end
 end
